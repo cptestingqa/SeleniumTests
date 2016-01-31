@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SamplSuite]">
+  <test name="Sample Testng test(failed)">
+    <classes>
+      <class name="Tenxlabs.AutomationTesting.ExampleTest">
+        <methods>
+          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="testDownload"/>
+        </methods>
+      </class> <!-- Tenxlabs.AutomationTesting.ExampleTest -->
+    </classes>
+  </test> <!-- Sample Testng test(failed) -->
+</suite> <!-- Failed suite [SamplSuite] -->

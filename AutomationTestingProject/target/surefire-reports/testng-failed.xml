@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SamplSuite]">
+  <test verbose="2" name="Sample Testng test">
+    <classes>
+      <class name="Tenxlabs.AutomationTesting.TestCase01"/>
+      <class name="Tenxlabs.AutomationTesting.TestCase02"/>
+      <class name="Tenxlabs.AutomationTesting.ExampleTest"/>
+    </classes>
+  </test> <!-- Sample Testng test -->
+  <test name="Sample Testng test(failed)">
+    <classes>
+      <class name="Tenxlabs.AutomationTesting.ExampleTest">
+        <methods>
+          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="testDownload"/>
+        </methods>
+      </class> <!-- Tenxlabs.AutomationTesting.ExampleTest -->
+    </classes>
+  </test> <!-- Sample Testng test(failed) -->
+</suite> <!-- Failed suite [SamplSuite] -->
