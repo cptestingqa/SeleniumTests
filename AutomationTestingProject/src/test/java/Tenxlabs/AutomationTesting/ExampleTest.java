@@ -31,6 +31,7 @@ public class ExampleTest {
 	{
 		driver.get("https://www.zoho.com/mail/");
 		driver.findElement(By.xpath("//div[@class='header']//div[@class='signing']//a[text()='Sign In']")).click();
+		Thread.sleep(10);
 		String header = driver.findElement(By.xpath("//div[@class='main']/h1")).getText();
 		System.out.println("Page Title : "+ header);
 		Reporter.log("Page Title : "+ header);
