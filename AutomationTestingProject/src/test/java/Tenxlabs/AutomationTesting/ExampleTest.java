@@ -29,7 +29,7 @@ public class ExampleTest {
 	@Test
 	public void testDownload() throws Exception 
 	{
-		driver.get("https://www.zoho.com/mail/");
+		driver.get("https://www.zoho.com/mail/ftfthttrh");
 		driver.findElement(By.xpath("//div[@class='header']//div[@class='signing']//a[text()='Sign In']")).click();
 		Thread.sleep(10);
 		String header = driver.findElement(By.xpath("//div[@class='main']/h1")).getText();
